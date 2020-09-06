@@ -16,3 +16,6 @@
 - 4channels 10 bit ADC
 - Watchdog programmable Timer
 - Minimum and maximum operating voltage from 1.8V DC to 5.5V DC
+
+# Pin Configuration
+Pin Configuration is [baekdc's gitHub Pages](https://github.com/dcback/ATtiny/blob/master/ATtiny85.PNG).
