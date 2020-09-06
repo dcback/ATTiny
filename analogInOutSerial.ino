@@ -9,10 +9,10 @@
 */
 #include <SoftwareSerial.h>
 
-#define rxPin         PB4   // 4
-#define txPin         PB3   // 3
-#define analoginPin   A1    // A1 = PB2 = 2, Analog input pin must use pinName A1
-#define analogoutPin  PB1   // 1 Analog output pin that the LED is attached to
+#define rxPin         4   // PB4   
+#define txPin         3   // PB3
+#define analoginPin   A1  // A1 = PB2 = 2, Analog input pin must use pinName A1
+#define analogoutPin  1   // PB1 Analog output pin that the LED is attached to
 
 SoftwareSerial mySerial(rxPin, txPin);
 
