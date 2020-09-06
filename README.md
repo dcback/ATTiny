@@ -1,18 +1,18 @@
 # ATtiny85 Features / Technical Specifications
-. High performance design
-. Low power consumption in operating mode on 1.8 volts current consumption is only 300uA & on power down mode current consumption is only 0.1uA on 1.8V.
-. Total number of Analog Input pins are 6
-. Contains 8 kilobytes of flash memory
-. Contains 512 bytes of SRAM
-. Contains 512 bytes of EEPROM
-. 32 Registers
-. Minimum & maximum temperature -40 degree centigrade to 105 degree centigrade
-. Advance RISC
-. Lock program functionality for programming code security
-. Contains total two 8-bit timers or counters one with compare mode and other is high speed.
-. Total number of I/O pins are 6
-. Universal Serial interface on pin 5,6 and 7.
-. Contains USI (Universal Serial Interface)
-. 4channels 10 bit ADC
-. Watchdog programmable Timer
-. Minimum and maximum operating voltage from 1.8V DC to 5.5V DC
+- High performance design
+- Low power consumption in operating mode on 1.8 volts current consumption is only 300uA & on power down mode current consumption is only 0.1uA on 1.8V.
+- Total number of Analog Input pins are 6
+- Contains 8 kilobytes of flash memory
+- Contains 512 bytes of SRAM
+- Contains 512 bytes of EEPROM
+- 32 Registers
+- Minimum & maximum temperature -40 degree centigrade to 105 degree centigrade
+- Advance RISC
+- Lock program functionality for programming code security
+- Contains total two 8-bit timers or counters one with compare mode and other is high speed.
+- Total number of I/O pins are 6
+- Universal Serial interface on pin 5,6 and 7.
+- Contains USI (Universal Serial Interface)
+- 4channels 10 bit ADC
+- Watchdog programmable Timer
+- Minimum and maximum operating voltage from 1.8V DC to 5.5V DC
