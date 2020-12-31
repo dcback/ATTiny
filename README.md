@@ -1,7 +1,7 @@
 # Attiny 환경 설정
 - USBASP V2.0으로 Upload to TargetBoard
-https://m.blog.naver.com/PostView.nhn?blogId=antplustech&logNo=221055361822&proxyReferer=https:%2F%2Fwww.google.com%2F
-https://github.com/damellis/attiny
+1) https://m.blog.naver.com/PostView.nhn?blogId=antplustech&logNo=221055361822&proxyReferer=https:%2F%2Fwww.google.com%2F
+2) https://github.com/damellis/attiny
 
 # ATtiny85 Features / Technical Specifications
 - High performance design
