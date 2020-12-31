@@ -1,3 +1,8 @@
+# Attiny 환경 설정
+* USBASP V2.0으로 Upload to TargetBoard
+https://m.blog.naver.com/PostView.nhn?blogId=antplustech&logNo=221055361822&proxyReferer=https:%2F%2Fwww.google.com%2F
+https://github.com/damellis/attiny
+
 # ATtiny85 Features / Technical Specifications
 - High performance design
 - Low power consumption in operating mode on 1.8 volts current consumption is only 300uA & on power down mode current consumption is only 0.1uA on 1.8V.
