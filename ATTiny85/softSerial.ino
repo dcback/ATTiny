@@ -1,4 +1,4 @@
-/***
+/*
   [Attiny 25/45/85 Pinout]
                   ------
   RESET=A0=PB5=5-|      |-VCC
@@ -6,7 +6,7 @@
         A2=PB4=4-|      |-1(~)=PB1=MISO
              GND-|      |-0(~)=PB0=MOSI=SDA
                   ------
-***/
+*/
 #include <SoftwareSerial.h>
 
 #define txPin       0     // PB0
