@@ -1,10 +1,10 @@
 /*
   [Attiny 25/45/85 Pinout]
                   ------
-  5=PB5=A0=RESET-|      |-VCC
-        3=PB3=A3-|      |-2=PB2=A1=SCK
-        4=PB4=A2-|      |-1=PB1=MISO
-            GND -|      |-0=PB0=MOSI=SDA
+  RESET=A0=PB5=5-|      |-VCC
+        A3=PB3=3-|      |-2=PB2=A1=SCK=SCL
+     A2=PB4=4(~)-|      |-1(~)=PB1=MISO
+             GND-|      |-0(~)=PB0=MOSI=SDA
                   ------
 */
 #include <SoftwareSerial.h>
