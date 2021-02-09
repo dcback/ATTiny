@@ -7,13 +7,20 @@
             GND -|      |-0(~)=PB0=TX=MOSI=SDA
                   ------
 */
+#define ledPin    1   // PB1
+
+bool  ledStatus = 0;
+
 void setup()
 {
   Serial.begin();     // Default 115200
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop()
 {
-  Serial.println("ATTiny13 Serial Print");
+  Serial.println("LED On/Off in 1 sec.");
+  digitalWrite(ledPin, ledStatus);
   delay(1000);
+  ledStatus = !ledStatus;
 }

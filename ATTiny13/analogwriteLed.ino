@@ -7,13 +7,22 @@
             GND -|      |-0(~)=PB0=TX=MOSI=SDA
                   ------
 */
+#define ledPin    1   // PB1
+
 void setup()
 {
   Serial.begin();     // Default 115200
+  pinMode(ledPin, OUTPUT);
+  Serial.println("PWM LED Control");
 }
 
 void loop()
 {
-  Serial.println("ATTiny13 Serial Print");
-  delay(1000);
+  for (int pwmValue = 0; pwmValue <= 255; pwmValue++)
+  {
+    analogWrite(ledPin, pwmValue);
+    Serial.print(pwmValue); Serial.print(" ");
+    delay(50);
+  }
+  Serial.println();
 }
