@@ -19,7 +19,7 @@ void setup()
 
 void loop()
 {
-  Serial.println("LED On/Off in 1 sec.");
+  Serial.println(F("LED On/Off in 1 sec."));
   digitalWrite(ledPin, ledStatus);
   delay(1000);
   ledStatus = !ledStatus;
