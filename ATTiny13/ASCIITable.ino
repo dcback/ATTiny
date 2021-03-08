@@ -37,7 +37,8 @@ void loop()
   if (thisByte == 126)  // you could also use if (thisByte == '~')
   {
     // This loop loops forever and does nothing
-    while (true) {
+    while (true) 
+    {
       continue;
     }
   }
