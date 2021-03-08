@@ -14,6 +14,6 @@ void setup()
 
 void loop()
 {
-  Serial.println("ATTiny13 Serial Print");  //SRAM -> Flash memory
+  Serial.println(F("ATTiny13 Serial Print"));  //SRAM -> Flash memory
   delay(1000);
 }
