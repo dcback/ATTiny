@@ -1,3 +1,5 @@
+// MOSI=PA1, MISO=PA2, SCK=PA3, NSS=PA6, NRST=PA0, IRQ=PA7  
+
 #include <SPI.h>
 #include <LoRa.h>
 
@@ -8,17 +10,8 @@
 int counter = 0;
 
 void setup() {
-  Serial.begin(115200);
-  while (!Serial)
-    ;
-
   LoRa.setPins(csPin, resetPin, irqPin);  // CS, RST, IRQ Pin Set
-
-  if (!LoRa.begin(915E6)) {
-    Serial.println("Starting LoRa failed!");
-    while (1)
-      ;
-  }
+  LoRa.begin(915E6);
 }
 
 void loop() {
