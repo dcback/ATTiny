@@ -1,4 +1,4 @@
-// MOSI=PA1, MISO=PA2, SCK=PA3, NSS=PA6, NRST=PA0, IRQ=PA7  
+// SCK=PA3, MISO=PA2, MOSI=PA1, NSS=PA6, IRQ=PA7, RST=PA0
 
 #include <SPI.h>
 #include <LoRa.h>
@@ -15,13 +15,13 @@ void setup() {
 }
 
 void loop() {
-  // send packet
-  LoRa.beginPacket();
-  LoRa.print("hello ");
-  LoRa.print(counter);
-  LoRa.endPacket();
+  if (millis() % 1000 == 0) {
+    // send packet
+    LoRa.beginPacket();
+    LoRa.print("hello ");
+    LoRa.print(counter);
+    LoRa.endPacket();
 
-  counter++;
-
-  delay(3000);
+    counter++;
+  }
 }
